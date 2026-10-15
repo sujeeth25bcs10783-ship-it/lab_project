@@ -141,8 +141,8 @@ export default function Home({ user, setUser }) {
 
             <div className="hero-inner-content">
               <div className="hero-badge-pill">
-                <Flame size={14} className="hero-flame-icon" />
-                <span>DROP '26 • THE NEW STANDARD</span>
+                <Sparkles size={14} style={{ color: 'var(--primary)' }} />
+                <span>SPRING '26 • THE NEW STANDARD</span>
               </div>
 
               <h1 className="hero-headline">
@@ -174,7 +174,7 @@ export default function Home({ user, setUser }) {
                 <div className="stat-divider"></div>
                 <div className="hero-stat-item">
                   <ShieldCheck size={14} className="stat-icon-green" />
-                  <span>Razorpay Verified</span>
+                  <span>Verified Buyer Protection</span>
                 </div>
               </div>
 
@@ -190,7 +190,7 @@ export default function Home({ user, setUser }) {
                   id="hero-explore-catalog-btn"
                 >
                   <ShoppingBag size={18} />
-                  <span>Explore Drop</span>
+                  <span>Explore Collection</span>
                 </button>
 
                 <button
