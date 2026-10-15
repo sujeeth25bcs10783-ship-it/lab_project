@@ -137,3 +137,5 @@ Fetching `/customers/me` ensures that the server validates the cryptographically
 **Answer:**
 - **Authentication (AuthN):** The process of verifying **who** a user is. It checks user credentials (e.g., matching email and password during login, or validating a JWT token) to confirm identity.
 - **Authorization (AuthZ):** The process of verifying **what permissions or access rights** an authenticated user possesses. For example, determining whether an authenticated customer is allowed to access an admin dashboard, delete another user's account, or modify store inventory.
+#   l a b _ p r o j e c t  
+ 
